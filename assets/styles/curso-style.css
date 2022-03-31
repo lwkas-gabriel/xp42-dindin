@@ -1,0 +1,132 @@
+.background{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    /* gap: 80px; */
+}
+
+.background span h1{
+    display: block;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    text-transform: capitalize;
+    color: #FF4081;
+    margin-bottom: 0;
+}
+
+.background span p{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-left: 30px;
+    height: fit-content;
+    max-width: 512px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.background img{
+    width: fit-content;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    max-width: fit-content;
+}
+
+.aula{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 53px;
+    margin-top: 95px;
+    padding-bottom: 60px;
+    width: 100%;
+    border-bottom: solid #C4C4C4 2px;
+}
+
+.aula span{
+    max-width: 100%;
+}
+
+.aula:last-child{
+    margin-bottom: 202px;
+    border: none;
+    padding-bottom: 0;
+}
+
+.aula img{
+    width: 400px;
+    max-width: 100%;
+    height: fit-content;
+}
+
+.aula p{
+    max-width: 100%;
+    margin-left: 0px;
+    width: 30%;
+    height: fit-content;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.aula h2{
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+.aula a{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #419488;
+    border-radius: 62px;
+}
+
+@media only screen and (max-width: 1138px) {
+    .background{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        gap: 80px;
+    }
+}

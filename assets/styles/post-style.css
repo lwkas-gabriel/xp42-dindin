@@ -1,0 +1,133 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #FF4081;
+}
+
+h2{
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 21px;
+    text-align: justify;
+    color: #2E948A;
+}
+
+img{
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+p{
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+
+    color: #000000;
+
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 111px;
+}
+
+.date{
+    margin: 0;
+    padding: 0 0 64px 0;
+}
+
+.list-courses{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    background: #F7F7F7;
+    margin-bottom: 0;
+    gap: 80px;
+}
+
+.list-courses .content-tab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    background: #F7F7F7;
+    margin-bottom: 0;
+}
+
+.list-courses article img{
+    display: block;
+    margin: 0 auto;
+    width: 288px;
+    height: 270px;
+}
+
+.list-courses article h5{
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #ff4081;
+    text-align: center;
+}
+
+.list-courses article p{
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+    height: 60px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.list-courses article a{
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 233px;
+    height: 51px;
+    padding-top: 14px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background: #FF4081;
+    border-radius: 62px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
