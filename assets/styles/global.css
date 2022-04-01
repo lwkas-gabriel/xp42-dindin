@@ -59,6 +59,11 @@ footer {
 
 }
 
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 footer ul {
     color: #fdfdfd;
     list-style-type: none;
