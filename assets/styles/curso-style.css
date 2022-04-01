@@ -43,28 +43,40 @@
 }
 
 .container{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #F7F7F7;
-    max-width: fit-content;
+    max-width: fit-content; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
 }
 
 .aula{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 53px;
+    gap: 10%;
     margin-top: 95px;
     padding-bottom: 60px;
-    width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
     border-bottom: solid #C4C4C4 2px;
 }
 
 .aula span{
+    width: 30%;
+    max-width: 100%;
+    align-items: center;
     max-width: 100%;
 }
 
@@ -75,15 +87,14 @@
 }
 
 .aula img{
-    width: 400px;
-    max-width: 100%;
+    width: fit-content;
     height: fit-content;
+    max-width: 100%;
 }
 
-.aula p{
+.aula span p{
     max-width: 100%;
     margin-left: 0px;
-    width: 30%;
     height: fit-content;
     font-style: normal;
     font-weight: 300;
@@ -93,8 +104,9 @@
     margin-bottom: 50px;
 }
 
-.aula h2{
+.aula span h2{
     margin-top: 0;
+    max-width: 100%;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -103,12 +115,13 @@
     color: #FF4081;
 }
 
-.aula a{
+.aula span a{
     height: fit-content;
     width: fit-content;
     padding: 10px 20px;
     font-style: normal;
     font-weight: 400;
+    max-width: 100%;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
@@ -129,4 +142,26 @@
         margin-bottom: 80px;
         gap: 80px;
     }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .aula{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10%;
+        margin-top: 95px;
+        padding-bottom: 60px;
+        border-bottom: solid #C4C4C4 2px;
+    }
+}
+
+
+@media only screen and (max-width: 769px) {
+        .aula span p{
+            width: fit-content;
+        }
 }

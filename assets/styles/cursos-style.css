@@ -34,7 +34,7 @@ p{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     gap: 10%;
     margin-top: 95px;
@@ -46,6 +46,10 @@ p{
     margin-bottom: 202px;
     border: none;
     padding-bottom: 0;
+}
+
+.curso span{
+    align-items: center;
 }
 
 .curso img{
